@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --colortextos: #777777;
+    --colorbotones: #8c2574;
+    --colorfondo: #A381F2;
+    --paddingsecciones: 60px 0;
+    --marginelementos: 40px;
+}
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Lato', sans-serif ;
+    font-size: 1.2rem;
+    min-height: 100%;
+}
