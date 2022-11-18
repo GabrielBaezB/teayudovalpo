@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import * as Notiflix from 'notiflix';
 
 
 @Component({
@@ -22,13 +23,19 @@ this.datos = new FormGroup({
 
 enviarcorreo(){
 
+  Notiflix.Loading.standard('Cargando...');
+
   let params = {
     email: this.datos.value.correo,
     nombre: this.datos.value.nombre,
     mensaje: this.datos.value.mensaje
   }
   console.log(params);
-  // this.httpclient.post('http://localhost:3000/envio', params );
+  this.httpclient.post('http://localhost:3000/enviar', params ).subscribe(resp => {
+    console.log(resp)
+    Notiflix.Loading.remove();
+    Notiflix.Notify.success('Enviado Correctamente');
+  });
 
 }
   
