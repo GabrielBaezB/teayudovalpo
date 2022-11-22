@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { MembreciaComponent } from './layout/membrecia/membrecia.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
     SkeletonComponent,
     AboutComponent,
     ContactComponent,
+    MembreciaComponent,
   ],
   imports: [
     BrowserModule,
