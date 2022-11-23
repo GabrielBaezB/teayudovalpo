@@ -1,5 +1,11 @@
+@font-face {
+    font-family: droid;
+    src: url(../../assets/fonts/letra1.ttf);
+}
+
 .about{
     text-align: justify;
+    font-family: 'droid';
 }
 
 .center{
@@ -11,4 +17,45 @@
 .img__uno{
     float: left;
     width: 260px;
+}
+.img__dos{
+    float: left;
+    width: 68px;
+    margin: -33px 0px 0px 200px;
+}
+.img__tres{
+    float: right;
+    width: 68px;
+    margin: -33px 266px 0px -7px;
+}
+
+.__h2{
+    text-align: justify;
+    margin: 20px 330px 50px 261px;
+    color: #ffa500;
+}
+
+
+@media(max-width:390px) { 
+
+.img__dos{
+    float: left;
+    width: 68px;
+    margin: 24px 156px -92px -31px;
+}
+.img__tres{
+    float: right;
+    width: 68px;
+    margin: 24px -27px 0px -7px;
+}
+
+.__h2{
+    text-align: center;
+    margin: -80px -3px 26px 32px;
+}
+
+.img__uno{
+    width: 360px;
+    margin: -8px -10px 0px -18px;
+}
 }

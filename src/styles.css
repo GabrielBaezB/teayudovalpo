@@ -1,6 +1,6 @@
 /* Fuentes del sitio*/
 p, a, h1, h2, h3, h4, h5, h6{
-    font-family: 'Roboto', sans-serif !important;
+    font-family: droid, sans-serif !important;
 }
 
 h1{ font-size: 60px !important; }
@@ -10,3 +10,11 @@ h4{ font-size: 25px !important; }
 
 p, a{ font-size: 18px !important; }
 
+@font-face {
+    font-family: droid;
+    src: url(assets/fonts/letra1.ttf);
+}
+
+body{
+    background-color:aliceblue;
+}
