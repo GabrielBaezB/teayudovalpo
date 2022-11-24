@@ -3,7 +3,7 @@
     padding: 10%;
 }
 .how-section1 h4{
-    color: #ffa500;
+    color: #FD8121;
     font-weight: bold;
     font-size: 30px;
 }
@@ -21,4 +21,8 @@
 }
 .how-img img{
     width: 50%;
+}
+
+.muted{
+    color: #568203;
 }

@@ -19,7 +19,7 @@
     background: #1AA85C; 
     }
     .yellow .pricing-divider {
-    background: gold; 
+    background: #d29bfd; 
     }
     .red b {
       color:#C64545
@@ -31,7 +31,7 @@
       color:#1AA85C
     }
     .yellow b {
-        color:gold;
+        color:#d29bfd;
     }
     .pricing-divider-img {
         position: absolute;
