@@ -11,14 +11,14 @@
     padding: 10px 0px;
 }
 .pie-pagina .grupo-1 .box figure{
-    width: 100%;
+    width: 50%;
     height: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
-.pie-pagina .grupo-1 .box figure img{
-    width: 170px;
+.pie-pagina .grupo-1 .box figure{
+    float: left;
+    width: 70px;
 }
 .pie-pagina .grupo-1 .box h3{
     text-align: center;
@@ -81,4 +81,7 @@
     text-align: center;
 }
 
+.logoFooter{
+    margin: -160px -30px -79px -24px;
+}
 
