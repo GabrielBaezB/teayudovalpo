@@ -27,6 +27,11 @@
     color: #568203;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media(max-width:390px) { 
     .how-section1{
         margin-top:-35%;

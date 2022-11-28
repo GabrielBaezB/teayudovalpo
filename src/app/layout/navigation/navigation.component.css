@@ -29,6 +29,7 @@
 }
 
 .menu{
+    display:flex;
     float: right;
     line-height: 75px;
 }
@@ -37,7 +38,7 @@
     color: rgb(0, 0, 0);
     text-decoration: none;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 20px 15px;
     line-height: normal;
     font-size: 14px;
     transition: all 500ms ease;

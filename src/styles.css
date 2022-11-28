@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+  }
+
+
 /* Fuentes del sitio*/
 p, a, h1, h2, h3, h4, h5, h6{
     font-family: droid, sans-serif !important;
@@ -16,6 +21,7 @@ p, a{ font-size: 18px !important; }
 }
 
 body{
+    font-family: droid, sans-serif !important;
     background-color:aliceblue;
     width: 100%;
     margin: 0 auto;
