@@ -17,4 +17,8 @@ p, a{ font-size: 18px !important; }
 
 body{
     background-color:aliceblue;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 390px;
+    max-width: 2000px;
 }

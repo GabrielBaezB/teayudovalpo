@@ -26,3 +26,11 @@
 .muted{
     color: #568203;
 }
+
+@media(max-width:390px) { 
+    .how-section1{
+        margin-top:-35%;
+        padding: 10%;
+    }
+
+}

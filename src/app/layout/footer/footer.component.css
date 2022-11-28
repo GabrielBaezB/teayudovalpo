@@ -51,14 +51,6 @@
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
-@media screen and (max-width:800px){
-    .pie-pagina .grupo-1{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
-        padding: 35px 0px;
-    }
-}
 
 .red-social{
     text-align: center;
@@ -77,11 +69,33 @@
     color: white !important;
     text-decoration: none;
     font-size: 25px !important;
-    width: 90%;
+    width: 100%;
     text-align: center;
+  
 }
 
 .logoFooter{
-    margin: -160px -30px -79px -24px;
+    margin: -160px 0vh -120px -24px;
+    float: left;
 }
 
+@media(max-width:390px) { 
+    .logoFooter{
+        max-width:150%;
+        max-height:150%;
+        text-align: center;
+        margin: -15vh -30px -79px -24px;
+    }
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+            margin: auto;
+            display:grid;
+            grid-gap:1px;
+            padding: 10px 0px;
+        }  
+        .contA{
+            margin: 10px 30px 30px 10px;
+        }
+
+}
