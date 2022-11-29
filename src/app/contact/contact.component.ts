@@ -13,7 +13,7 @@ export class ContactComponent implements OnInit {
 
 datos:FormGroup;
 
-constructor(private httpclient:HttpClient){
+constructor(private http:HttpClient){
 this.datos = new FormGroup({
   nombre: new FormControl('', [Validators.required]),
   correo: new FormControl('', [Validators.required, Validators.email]),
@@ -23,23 +23,25 @@ this.datos = new FormGroup({
 
 enviarcorreo(){
 
-  Notiflix.Loading.standard('Cargando...');
+  Notiflix.Loading.pulse('Cargando...');
 
   let params = {
     email: this.datos.value.correo,
     nombre: this.datos.value.nombre,
     mensaje: this.datos.value.mensaje
-  }
-  console.log(params);
-  this.httpclient.post('http://localhost:3000/enviar', params ).subscribe(resp => {
-    console.log(resp)
-    Notiflix.Loading.remove();
-    Notiflix.Notify.success('Enviado Correctamente');
+  };
+  // console.log(params);
+  this.http.post('http://localhost:3000/enviar', params)
+  .subscribe((res) => {
+    
   });
+  Notiflix.Loading.remove();
+  Notiflix.Notify.success('Enviado Correctamente');
+
+  this.datos.reset();
 
 }
-  
+
   ngOnInit(): void {
   }
-
 }
