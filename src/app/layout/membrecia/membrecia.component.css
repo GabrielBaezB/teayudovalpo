@@ -78,5 +78,16 @@
       
       }
   }
+    @media(max-width:912) { 
+      .col-sm-3{
+        width: 100%;
+      }
+  
+      ul li {
+        margin-bottom:1.9rem;
+        font-size: 25px;
+      
+      }
+  }
 
   

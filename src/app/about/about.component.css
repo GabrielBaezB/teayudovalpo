@@ -61,3 +61,117 @@
 
 
 }
+@media only screen and (min-width:360px) { 
+
+    .img__dos{
+        float: left;
+        width: 68px;
+        margin: 24px 156px -92px -31px;
+    }
+    .img__tres{
+        float: right;
+        width: 68px;
+        margin: 24px -27px 0px -7px;
+    }
+    .__h2{
+        text-align: center;
+        margin: -15px -3px 26px 32px;
+    }
+    
+    .img__uno{
+        width: 360px;
+        margin: -8px -10px 0px -18px;
+    }
+    
+    }
+@media only screen and (min-width:375px) { 
+
+    .img__dos{
+        float: left;
+        width: 68px;
+        margin: 24px 156px -92px -31px;
+    }
+    .img__tres{
+        float: right;
+        width: 68px;
+        margin: 24px -27px 0px -7px;
+    }
+    .__h2{
+        text-align: center;
+        margin: -15px -3px 26px 32px;
+    }
+    
+    .img__uno{
+        width: 360px;
+        margin: -8px -10px 0px -18px;
+    }
+    
+    }
+@media only screen and (min-width:820px) { 
+
+    .img__dos{
+        float: left;
+        width: 68px;
+        margin: -11px 0px 0px -31px;
+    }
+    .img__tres{
+        float: right;
+        width: 68px;
+        margin: -11px -0px 0px -7px;
+    }
+    .__h2{
+        text-align: center;
+        margin: -15px -3px 26px 32px;
+    }
+    
+    .img__uno{
+        width: 360px;
+        margin: -8px -10px 0px -18px;
+    }
+    
+    }
+@media only screen and (min-width:768px) { 
+
+    .img__dos{
+        float: left;
+        width: 68px;
+        margin: -11px 0px 0px -31px;
+    }
+    .img__tres{
+        float: right;
+        width: 68px;
+        margin: -11px -0px 0px -7px;
+    }
+    .__h2{
+        text-align: center;
+        margin: -15px -3px 26px 32px;
+    }
+    
+    .img__uno{
+        width: 360px;
+        margin: -8px -10px 0px -18px;
+    }
+    
+    }
+@media only screen and (min-width:280px) { 
+    .img__dos{
+        float: left;
+        width: 68px;
+        margin: -11px 0px 0px -31px;
+    }
+    .img__tres{
+        float: right;
+        width: 68px;
+        margin: -11px -0px 0px -7px;
+    }
+    .__h2{
+        text-align: center;
+        margin: -15px -3px 26px 32px;
+    }
+    
+    .img__uno{
+        width: 360px;
+        margin: -8px -10px 0px -18px;
+    }
+    
+    }

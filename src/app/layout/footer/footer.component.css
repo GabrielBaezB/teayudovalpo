@@ -198,13 +198,30 @@
 } 
 @media only screen and (min-width:1024px) { 
     .logoFooter{
-        margin: 0px 350px;
+        margin: 0px 0px;
     }
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+            margin: auto;
+            display:grid;
+            grid-gap:1px;
+            padding: 10px 0px;
+        }
 } 
 @media only screen and (min-width:1280px) { 
     .logoFooter{
-        margin: 0px 470px;
+        margin: 0px 70px;
     }
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+            margin: auto;
+            display:grid;
+            grid-gap:1px;
+            padding: 10px 0px;
+        }
+    
 } 
 @media only screen and (max-width:280px) { 
     .logoFooter{
