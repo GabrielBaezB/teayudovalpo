@@ -30,8 +30,8 @@ enviarcorreo(){
     nombre: this.datos.value.nombre,
     mensaje: this.datos.value.mensaje
   };
-  // console.log(params);
-  this.http.post('http://localhost:3000/enviar', params)
+  console.log(params);
+  this.http.post('https://teayudovalpo.cl/enviar', params)
   .subscribe((res) => {
     
   });
