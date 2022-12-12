@@ -31,7 +31,7 @@ enviarcorreo(){
     mensaje: this.datos.value.mensaje
   };
   console.log(params);
-  this.http.post('https://teayudovalpo.cl/enviar', params)
+  this.http.post('https://teayudovalpo.cl:8000/api/v1/enviar', params)
   .subscribe((res) => {
     
   });
